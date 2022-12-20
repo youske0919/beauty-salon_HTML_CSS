@@ -1,0 +1,779 @@
+/* pc、スマホ共通スタイル */
+body {
+  font-family: Helvetica, Arial, ヒラギノ角ゴ Pro, Hiragino Kaku Gothic Pro, YuGothic, 游ゴシック体, メイリオ, Meiryo, sans-serif;
+}
+
+/* PC用のスタイル */
+body {
+  min-width: 960px;
+  padding: 0;
+  background-color: #727171;
+  color: #fff;
+  font-size: 14px;
+
+}
+
+/* ナビゲーション */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+a {
+  color: inherit;
+  font-family: eb-garamond, serif;
+  text-decoration: none;
+}
+
+.top-menu {
+  padding-left: 20px;
+}
+
+.top-menu a {
+  font-size: 17px;
+  margin: 0 13px 0 13px;
+}
+
+.logo {
+  margin: 14px 130px 0 0;
+}
+
+.reserve-btn {
+  position: relative;
+  width: 320px;
+
+}
+
+.reserve-btn a {
+  position: absolute;
+  left: 50%;
+  transform: translateY(0%) translateX(-45%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+  border: solid 1px #fff;
+  padding: 0 25px 0 25px;
+  font-size: 14px;
+  width: 150px;
+  text-align: center;
+}
+
+/* TOP画像 */
+.top_img {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
+
+.top_img img {
+  width: 1590px;
+  height: 635px;
+}
+
+/* Concept */
+#concept {
+  padding-top: 120px;
+  margin-bottom: 145px;
+}
+
+.concept {
+  display: flex;
+}
+
+/* conceptの画像 */
+.concept_img {
+  margin: 0px;
+  padding: 0px;
+}
+
+.concept_img img {
+  width: 1025px;
+  height: 600px;
+  vertical-align: top;
+  /* 画像下の余白削除 */
+}
+
+/* 01_Concept */
+.concept_right {
+  padding-top: 140px;
+}
+
+.concept01 {
+  display: flex;
+  margin-left: 80px;
+}
+
+.number01 {
+  border-top: solid 1px #fff;
+  width: 30px;
+  height: 30px;
+  padding-top: 7px;
+  padding-left: 7px;
+  font-family: eb-garamond, serif;
+}
+
+.number01 p {
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.concept_title {
+  margin-left: 120px;
+  font-family: eb-garamond, serif;
+}
+
+.concept_title h2 {
+  font-size: 45px;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.concept_sentence {
+  margin-top: 50px;
+  margin-left: 235px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+}
+
+.center {
+  margin: 30px 0px;
+}
+
+
+/* Features */
+#features {
+  padding: 120px;
+}
+
+/* 02_Features */
+.features {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.number02 {
+  border-top: solid 1px #fff;
+  width: 30px;
+  height: 30px;
+  padding-top: 7px;
+  padding-left: 7px;
+  font-family: eb-garamond, serif;
+}
+
+.number02 p {
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.features_title {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.features_title h2 {
+  font-size: 45px;
+  font-family: eb-garamond, serif;
+}
+
+/* Space */
+.features_space {
+  display: flex;
+}
+
+.space_img img {
+  width: 480px;
+  height: 650px;
+  vertical-align: top;
+}
+
+.space-sentence {
+  background-color: #727171;
+  ;
+  position: relative;
+  top: -10%;
+  left: 35%;
+  right: 0;
+  bottom: auto;
+  border-top: solid 4px white;
+  width: 350px;
+  padding: 30px 5px 10px 50px;
+  font-size: 13.5px;
+}
+
+.space-sentence p {
+  line-height: 30px;
+  letter-spacing: 0.1em;
+}
+
+.space_vertical-writing {
+  margin: 0px;
+  padding: 0px;
+}
+
+.space_vertical-writing p {
+  writing-mode: vertical-rl;
+  font-family: eb-garamond, serif;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* Ordermade Treatment &
+Aroma Head Spa */
+.features_ordermade {
+  display: flex;
+}
+
+.ordermade_img img {
+  width: 480px;
+  height: 650px;
+  vertical-align: top;
+}
+
+.ordermade-sentence {
+  background-color: #727171;
+  ;
+  position: relative;
+  top: -10%;
+  left: 35%;
+  right: 0;
+  bottom: auto;
+  border-top: solid 4px white;
+  width: 350px;
+  padding: 30px 5px 10px 50px;
+  font-size: 13.5px;
+}
+
+.ordermade-sentence p {
+  line-height: 30px;
+  letter-spacing: 0.1em;
+}
+
+.ordermade_vertical-writing {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ordermade_vertical-writing p {
+  position: relative;
+  top: 0;
+  left: -30%;
+  writing-mode: vertical-rl;
+  font-family: eb-garamond, serif;
+  font-size: 38px;
+  line-height: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* Technic */
+.features_technic {
+  display: flex;
+}
+
+.technic_img img {
+  width: 480px;
+  height: 650px;
+  vertical-align: top;
+}
+
+.technic-sentence {
+  background-color: #727171;
+  ;
+  position: relative;
+  top: -10%;
+  left: 35%;
+  right: 0;
+  bottom: auto;
+  border-top: solid 4px white;
+  width: 350px;
+  padding: 30px 5px 10px 50px;
+  font-size: 13.5px;
+}
+
+.technic-sentence p {
+  line-height: 30px;
+  letter-spacing: 0.1em;
+}
+
+.technic_vertical-writing {
+  margin: 0px;
+  padding: 0px;
+}
+
+.technic_vertical-writing p {
+  writing-mode: vertical-rl;
+  font-family: eb-garamond, serif;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Facility */
+.features_facility {
+  display: flex;
+}
+
+.facility_img img {
+  width: 480px;
+  height: 650px;
+  vertical-align: top;
+}
+
+.facility-sentence {
+  background-color: #727171;
+  ;
+  position: relative;
+  top: -10%;
+  left: 35%;
+  right: 0;
+  bottom: auto;
+  border-top: solid 4px white;
+  width: 350px;
+  padding: 30px 5px 10px 50px;
+  font-size: 13.5px;
+}
+
+.facility-sentence p {
+  line-height: 30px;
+  letter-spacing: 0.1em;
+}
+
+.facility_vertical-writing {
+  margin: 0px;
+  padding: 0px;
+}
+
+.facility_vertical-writing p {
+  writing-mode: vertical-rl;
+  font-family: eb-garamond, serif;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* 中間の画像 */
+.middle_img {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
+
+.middle_img img {
+  width: 1830px;
+  height: 645px;
+}
+
+/* 03_Menu */
+#menu {
+  padding-top: 120px;
+  margin-bottom: 170px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 950px;
+
+}
+
+.menu03-menu {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.menu03 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 180px;
+}
+
+.number03 {
+  border-top: solid 1px #fff;
+  width: 30px;
+  height: 30px;
+  padding-top: 7px;
+  padding-left: 7px;
+  font-family: eb-garamond, serif;
+}
+
+.number03 p {
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu_title {
+  margin-top 50px;
+  margin-bottom: 80px;
+}
+
+.menu_title h2 {
+  font-size: 50px;
+  font-family: eb-garamond, serif;
+}
+
+.menu_left {
+  width: 440px;
+}
+
+.cut-menu {
+  margin-bottom: 88px
+}
+
+.color-menu {
+  margin-bottom: 88px
+}
+
+.menu h3 {
+  width: 435px;
+  font-size: 24px;
+  font-family: eb-garamond, serif;
+  padding: 8px 0 8px 5px;
+  border-top: solid 4px white;
+  border-bottom: solid 1px white;
+}
+
+.menu dl {
+  width: 440px;
+  display: table;
+  line-height: 18px;
+}
+
+.menu dt {
+  display: table-cell;
+  padding-left: 5px;
+}
+
+.menu dd {
+  font-size: 16px;
+  display: table-cell;
+  text-align: right;
+}
+
+/* 04_Staff */
+#staff {
+  padding-top: 120px;
+}
+
+.staff04-introduction {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.staff04 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 180px;
+  margin-bottom: 30px;
+}
+
+.number04 {
+  border-top: solid 1px #fff;
+  width: 30px;
+  height: 30px;
+  padding-top: 7px;
+  padding-left: 7px;
+  font-family: eb-garamond, serif;
+}
+
+.number04 p {
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.staff_title {
+  margin-top 50px;
+  margin-bottom: 80px;
+}
+
+.staff_title h2 {
+  font-size: 50px;
+  font-family: eb-garamond, serif;
+}
+
+.introduction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduction img {
+  width: 320px;
+  height: 430px;
+  vertical-align: top;
+}
+
+.person-sentence {
+  background-color: #727171;
+  ;
+  position: relative;
+  top: -12%;
+  left: 25%;
+  right: 0;
+  bottom: auto;
+  border-top: solid 4px white;
+  width: 265px;
+  padding: 25px 5px 10px 50px;
+  font-size: 13px;
+}
+
+.introduction h3 {
+  font-size: 17px;
+  height: 8px;
+}
+
+.introduction h4 {
+  font-family: eb-garamond, serif;
+}
+
+.introduction p {
+  line-height: 28px;
+  letter-spacing: 0.1em;
+}
+
+/* 05_Access */
+#access {
+  margin-bottom: 200px;
+  padding-top: 120px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+
+}
+
+.map-address {
+  display: flex;
+  justify-content: space-around;
+  width: 1600px;
+  height: 600px;
+}
+
+.map {
+  position: relative;
+}
+
+.map iframe {
+  width: 1100px;
+  height: 600px;
+}
+
+/* マップボタンリンク */
+.map-btn {
+  position: relative;
+  position: absolute;
+  bottom: -5%;
+  left: 40%;
+  background-color: #727171;
+  width: 230px;
+  height: 65px;
+  border-bottom: solid 1px white;
+}
+
+.map-btn a {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.map-btn p {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  text-align: center;
+  width: 150px;
+  font-size: 16px;
+  font-family: eb-garamond, serif;
+}
+
+.access05-address {
+  width: 360px;
+}
+
+.number05 {
+  border-top: solid 1px #fff;
+  width: 30px;
+  height: 30px;
+  padding-top: 7px;
+  padding-left: 7px;
+  font-family: eb-garamond, serif;
+}
+
+.number05 p {
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.access_title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.access_title h2 {
+  font-size: 45px;
+  font-family: eb-garamond, serif;
+}
+
+.adderss > p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.oc_flex {
+  display: flex;
+}
+
+.open-closs {
+  display: flex;
+  flex-direction: column;
+  border-top: solid 1px white;
+  border-bottom: solid 1px white;
+  padding: 10px 0px;
+  font-family: eb-garamond, serif;
+  font-size: 17px;
+
+}
+
+.time {
+  margin-left: 20px;
+  padding-top: 17px;
+  font-family: eb-garamond, serif;
+  letter-spacing: 0.1em;
+}
+
+.time h3 {
+  margin-bottom: 0px;
+  font-size: 17px;
+}
+
+.time p {
+  margin-top: 0px;
+}
+
+.monday {
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+.oct>h3 {
+  margin-top: 40px;
+  font-family: eb-garamond, serif;
+  font-size: 17px;
+  letter-spacing: 0.1em;
+}
+
+/* SNS */
+.sns {
+  display: flex;
+  color: #727171;
+  
+}
+
+.bsi {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 350px;
+  border: solid 1px #727171;
+}
+.bsi a {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.bsi:hover {
+  background-color: wheat;
+}
+
+.title_url {
+position: absolute;
+bottom: 5%;
+left: 8%;
+}
+
+.arrow span {
+  font-size: 70px;
+  position: absolute;
+  bottom: 8%;
+  right: 8%;
+}
+
+.sns h2 {
+  font-family: eb-garamond, serif;
+  font-size: 35px;
+  padding-left: 8%;
+}
+
+/* フッター */
+.icon_info_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon_copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1050px;
+  height: 360px;
+}
+
+.icon_copy img {
+  padding: 75px 0 0 145px;
+}
+
+.icon_copy p {
+  padding: 0 0 20px 145px;
+}
+
+.info_flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 825px;
+  line-height: 28px;
+}
+
+.info_flex h2 {
+  font-family: eb-garamond, serif;
+}
+
+.footer-open {
+  margin-right: 90px;
+  padding-top: 50px;
+}
+
+.footer-access {
+  margin-right: 90px;
+  padding-top: 50px;
+}
+
+.footer-access a {
+  font-size: 16px;
+}
+
+.footer-tel {
+  margin-right: 90px;
+  padding-top: 50px;
+}
+
+.footer-close h2 {
+  margin-top: 0;
+}
