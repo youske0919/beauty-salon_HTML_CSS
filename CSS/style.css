@@ -50,7 +50,7 @@ a {
 
 .reserve-btn a {
   position: absolute;
-  left: 50%;
+  left: 60%;
   transform: translateY(0%) translateX(-50%);
   border: solid 1px #fff;
   padding: 0 25px 0 25px;
@@ -80,7 +80,8 @@ a {
 
 .concept {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+  
 }
 
 /* conceptの画像 */
@@ -93,6 +94,7 @@ a {
 .concept_right {
   width: 40%;
   height: 60%;
+  margin-bottom: 70px;
 }
 
 .concept_img img {
@@ -107,7 +109,6 @@ a {
 }
 
 @media screen and (max-width: 1200px) {
-
   .concept_img,
   .concept_right {
     width: 100%;
@@ -803,6 +804,7 @@ Aroma Head Spa */
   }
 
   .footer-access {
+
     margin-right: 90px;
     padding-top: 50px;
   }
